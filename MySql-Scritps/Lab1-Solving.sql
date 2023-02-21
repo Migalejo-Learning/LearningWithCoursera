@@ -10,7 +10,6 @@ FROM Customers as c
 INNER JOIN Bookings as b
 on c.`CustomerID` = b.`CustomerID`;
 
-
 # Task 2: 
 # Little Lemon want to view information about all existing customers 
 # with bookings that have been made so far. This data must include customers 
