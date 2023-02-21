@@ -12,8 +12,7 @@ INSERT INTO Customers(CustomerID, FullName, PhoneNumber) VALUES
 (2, "Marcos Romero", 0757536379), 
 (3, "Hiroki Yamane", 0757536376), 
 (4, "Anna Iversen", 0757536375), 
-(5, "Diana Pinto", 0757536374)
-;
+(5, "Diana Pinto", 0757536374);
 
 CREATE TABLE Bookings (
 BookingID INT NOT NULL PRIMARY KEY,  
